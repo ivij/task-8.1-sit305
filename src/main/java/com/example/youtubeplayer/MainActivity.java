@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void playVid(View v)
     {
         input = url.getText().toString();
-        final_input = input.substring(32);
+        final_input = input.substring(17);
         Intent intent = new Intent(this,MainActivity2.class);
         intent.putExtra("input",final_input);
         startActivity(intent);
